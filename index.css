@@ -1,0 +1,75 @@
+.container {
+  width: 760px;
+  margin: 20px auto;
+}
+
+.players,.deleted_players {
+  margin-bottom: 40px;
+  overflow: hidden;
+  padding: 4px;
+}
+
+.players h4 {
+  margin-top: 10px;
+}
+.player {
+  float: left;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  height: 26px;
+  line-height: 24px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0 4px 0 10px;
+}
+.name {
+  padding-right: 4px;
+}
+
+.tribes {
+  overflow: hidden;
+  width: 480px;
+  margin: 0 auto;
+}
+.tribes h4 {
+  text-align: center;
+}
+.tribe {
+  width: 200px;
+  margin: 0 20px 20px 20px;
+  float: left;
+  border-top: 1px black solid;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+.title {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px black solid;
+  font-size: 16px;
+  text-align: center;
+}
+.tribe-name {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  border: 0;
+}
+.item {
+  height: 50px;
+  border-bottom: 1px black solid;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.clear {
+  clear: both;
+}
+.random-draw {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
